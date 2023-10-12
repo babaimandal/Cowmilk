@@ -1,0 +1,771 @@
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+/*  Custom Css  */
+
+/*	header cowmilk***************/
+	.cowmilk-header{
+		background-color: #3FAD3D;
+	}
+	.cowmilk-header .logo-block h2{
+		font-size: 45px;
+		padding-top: 21px;
+
+	}
+	.cowmilk-header .box{
+
+	}
+	.cowmilk-header nav ul{
+		display: flex;
+	}
+	.cowmilk-header nav ul  li a{
+		text-decoration: none;
+		color: #fff;
+	}
+
+/*	cowmilk-banner***************/
+
+	.cowmilk-banner {
+		background-color: #3FAD3D;
+		padding: 25px 0 70px 0;
+
+		position: relative;
+	}
+	.cowmilk-banner::before {
+		content: " ";
+		position: absolute;
+		background-image: url(../image/wave-shape.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+	    height: 70px;
+	    bottom: 0;
+	}
+	.cowmilk-banner .position-png-texture{
+		position: absolute;
+
+	}
+	.cowmilk-banner .heading h1{
+		font-size: 69px;
+	    font-weight: 700;
+	    line-height: 75px;
+
+	}
+	.cowmilk-banner .heading p{
+		font-size: 15px;
+	    font-weight: 500;
+	    max-width: 459px;
+	    padding: 15px 0 20px 0;
+	}
+	.cowmilk-banner .heading a{
+		color: #3FAD3D;
+		font-size: 15px;
+		font-weight: 600;
+		padding: 10px 20px;
+		border-radius: 12px;
+	}
+	.cowmilk-banner .position-png-cow {
+		position: absolute;
+		right: 18%;
+	}
+	.cowmilk-banner .position-png-cow img{
+		width: 150px;
+	}
+	.cowmilk-banner .position-png-nut{
+		position: absolute;
+	    top: 31%;
+	    right: 65%;
+
+	}
+	.cowmilk-banner .position-png-texture{
+		position: absolute;
+	    bottom: -12%;
+	    opacity: 0.3;
+	} 
+	.cowmilk-banner .position-png-texture img{
+		width: 220px;
+		height: auto;
+	}
+	.cowmilk-banner .banner-image img{
+		width: 425px;
+	}
+
+/*  difine-protein  ************/
+	.difine-protein{
+		margin: 100px 0 100px 0;
+	}
+	.difine-protein .box{
+		text-align: center;
+	}
+	.difine-protein .box p{
+		color: #000;
+		font-size: 15px;
+		font-weight: 500;
+		margin: 0;
+		margin-top: 18px;
+
+	}
+
+/*  Create a recipes  *********/
+.create-recipes {
+	margin-bottom: 100px;
+}
+.create-recipes .box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.create-recipes .create-recipes-heading {
+	max-width: 392px;
+    font-size: 45px;
+    text-align: center;
+}
+.create-recipes .box img {
+    text-align: center;
+    width: 280px;
+    display: flex;
+    margin: 0 auto;
+}
+.create-recipes .box p{
+	text-align: center;
+}
+.create-recipes h2{
+	font-weight: 700;
+	font-size: 45px;
+	margin-bottom: 40px;
+}
+
+/* 	milk-for-children**************/
+	.milk-for-children .text-block h2{
+	font-size: 45px;
+    color: #000;
+    font-weight: 700;
+	/*    max-width: 354px;*/
+
+	}
+	.milk-for-children .text-block p{
+	font-size: 12px;
+    color: #5B5B5B;
+    font-weight: 600;
+    max-width: 383px;
+    margin: 20px 0 35px 0;
+    line-height: 23px;
+    
+	}
+	.milk-for-children .text-block a{
+		border-radius: 12px;
+		 display: inline-block;
+		 margin-right: 18px;
+	}
+	.milk-for-children .image-block img{
+		width: 460px;
+	}
+	
+/*	milk-for-old-family ***************/
+	.milk-for-old-family{
+		margin-bottom: 87px;
+		/*width: 100%;
+		position: relative;*/
+	}
+	.milk-for-old-family .image-block img{
+		width: 460px;
+	} 
+	.milk-for-old-family h2{
+		font-size: 45px;
+	    color: #000;
+	    font-weight: 700;
+	}
+	.milk-for-old-family .box p{
+		font-size: 12px;
+	    color: #5B5B5B;
+	    font-weight: 600;
+	    max-width: 383px;
+	    margin: 20px 0 35px 0;
+	    line-height: 23px;
+	}
+	.milk-for-old-family .text-block a{
+		border-radius: 12px;
+		display: inline-block;
+		margin-right: 18px;
+	}
+
+/*  milk is allways good for health	****/
+	.milk-good-for-health{
+		background-color: #F6FBF5;
+		padding: 42px 0 30px 0;
+		margin: 0 0 100px 0;
+	}
+	.milk-good-for-health h2{
+		font-size: 45px;
+	    color: #222;
+	    font-weight: 700;
+	    max-width: 426px;
+	}
+
+/*	our popular product *****************/
+	.popular-product{
+		margin-bottom: 100px;
+	}
+	.popular-product .box {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+	.popular-product .thailand-milk{
+		width: 230px;
+		height: 230px;
+		background-color: #F4F4F4;
+		border-radius: 57% 43% 78% 22% / 33% 51% 49% 67% ;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 25px;
+	}
+	.popular-product p{
+		font-weight: 600;
+		color: #222;
+
+	}
+	.popular-product .price{
+		width: 60px;
+		height: 60px;
+		background-color: #fff;
+		border-radius: 47% 53% 69% 31% / 26% 25% 75% 74% ;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+	}
+	.popular-product .price p{
+		font-size: 18px;
+		font-weight: 600;
+	}
+/*Consumer stories*/
+	/*.consumer-stories{
+		background-color: #F6FBF5;
+		padding:  0 0 43px 0;
+	}
+	.consumer-stories h2{
+		padding-bottom: 55px;
+		font-size: 45px;
+		font-weight: 700;
+		color: #222;
+		padding-top: 52px;
+	}
+	.consumer-stories .rounded-stories{
+		width: 350px;	
+		height: 350px;
+		border-radius: 50%;
+		border: 1px solid #DADFD9;
+		position: relative;
+	}
+	.consumer-stories .rounded-stories .position-image-1{
+		position: absolute;
+	    top: -22px;
+	    right: 42%;
+	}
+	.consumer-stories .rounded-stories .position-image-2{
+		position: absolute;
+	    top: 7%;
+	    right: 7%;
+	}
+	.consumer-stories .rounded-stories .position-image-3{
+		position: absolute;
+	    top: 40%;
+	    right: -10%;
+	}
+	.consumer-stories .rounded-stories .position-image-4{
+		position: absolute;
+	    top: 76%;
+	    right: 7%;
+	}
+	.consumer-stories .rounded-stories .position-image-5{
+		position: absolute;
+	    top: 93%;
+	    left: 39%;
+	}
+	.consumer-stories .rounded-stories .position-image-6{
+		position: absolute;
+	    top: 67%;
+	    left: -1%;
+	}
+	.consumer-stories .rounded-stories .position-image-7{
+		position: absolute;
+	    top: 28%;
+	    left: -8%;
+	}
+	.consumer-stories .rounded-stories .position-image-8{
+		position: absolute;
+	    top: 2%;
+	    left: 9%;
+	}*/
+
+
+/******************************************	*/
+
+.parent{
+	width: 450px;
+	height: 450px;
+/*	border: 2px solid #80a3ca12;*/
+
+	border-radius: 50%;
+	position: relative;
+
+}
+.parent__thumbnails-image{
+	width: 200px;
+	aspect-ratio: 1 / 1;
+	background-color: green;
+	border-radius: 50%;
+}
+.parent__thumbnails-image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.parent__thumbnails-image-position-thumbnails-position #thumb{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+
+}
+.parent__thumbnails-image-position-thumbnails-position img{
+	width: 65px;
+	height: 65px;
+	object-fit: cover;
+	border-radius: 15%;
+
+	
+}
+.parent__thumbnails-image-position-thumbnails-position .thumb{
+	opacity: 0.4;
+}
+.parent__thumbnails-image-position-thumbnails-position #image-1-image{
+	position: absolute;
+	right: -5%;
+}
+.parent__thumbnails-image-position-thumbnails-position #image-2-image{
+	position: absolute;
+	top: 3px;
+  left: 69%;
+}
+.parent__thumbnails-image-position-thumbnails-position #image-3-image{
+	position: absolute;
+	left: -5%;
+  bottom: 27%;
+}
+.parent__thumbnails-image-position-thumbnails-position #image-4-image{
+	position: absolute;
+	top: 23%;
+  right: -3%;
+}
+.parent__thumbnails-image-position-thumbnails-position #image-5-image{
+	position: absolute;
+	top: 9%;
+  left: 7%;
+}
+.parent__thumbnails-image-position-thumbnails-position #image-6-image{
+	position: absolute;
+	top: -7%;
+  left: 36%;
+}
+.parent__thumbnails-image-position-thumbnails-position #image-7-image{
+	position: absolute;
+	bottom: 34px;
+  right: 8%;
+}
+.parent__thumbnails-image-position-thumbnails-position #image-8-image{
+	position: absolute;
+	right: 38%;
+  bottom: -26px;
+}
+.parent__thumbnails-image-position-thumbnails-position #image-9-image{
+	position: absolute;
+	right: 72%;
+  bottom: 20px;
+}
+.parent__thumbnails-image-position-thumbnails-position #image-10-image{
+	position: absolute;
+	left: -27px;
+ 	top: 34%;
+}
+	
+
+
+.has-border{
+/*	border: 1px solid #303841;*/
+}
+.fadein{
+	opacity: 1!important;
+}
+.dropshadow{
+		filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+
+}
+
+
+
+
+
+
+
+/*********************************************/
+	.consumer-stories .rounded-stories .center-image img{
+		
+	/*	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;*/
+	}
+	.consumer-stories .star-icon i{
+		color: #44A641;
+	}
+	.consumer-stories  p{
+		padding: 20px 0 20px 0;
+	}
+	.consumer-stories  h3{
+		color: #000;
+		font-size: 18px;
+	}
+	.consumer-stories  h5{
+		color: #525451;
+		font-size: 12px;
+	}
+	button{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		border: 1px solid #000;
+	}
+	button.slick-prev.slick-arrow{
+		bottom: -244px;
+	    right: -55px;
+	    position: relative;
+	}
+	
+/* footer*/
+
+	/*footer .col-3 .box .shop nav ul li:nth-child(3) a{
+		color: #3cd500;
+	}*/
+
+	footer{
+		margin-top: 90px;
+		padding-bottom: 85px;
+	}
+	footer  .box h3{
+		font-size: 35px;
+		font-weight: 600;
+	}
+	footer  .box h4{
+		color: #353535;
+		font-size: 20px;
+		font-weight: 600;
+		margin: 0 0 15px 0;
+	}
+	footer nav ul li a{
+		text-decoration: none;
+		color: #919191;
+
+	}
+	footer nav ul li a:hover{
+		color: #3cd500;
+		text-decoration: underline;
+	}
+	footer nav ul li{
+		margin-bottom: 15px;
+	}		
+/*all-right-reserved*/
+.all-right-reserved p{
+	color: #9E9E9E;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+/* MEDIA QUERY */
+@media screen and ( max-width: 1400px ) {
+button.slick-prev.slick-arrow {
+    right: -67px;
+    bottom: -267px;
+}
+
+}
+@media screen and ( max-width: 1200px ){
+.cowmilk-banner .position-png-cow{
+	bottom: -54px;
+}
+.cowmilk-banner .heading h1{
+	font-size: 51px;
+	line-height: 52px;
+}
+
+}
+@media screen and ( max-width: 992px ) {
+	.cowmilk-banner .position-png-cow{
+		right: 235px;
+	}
+}
+@media screen and ( max-width: 768px ) {
+
+.justify-content-end{
+	justify-content: center;
+}
+
+
+}
+@media screen and ( max-width: 991px ) {
+
+button.slick-prev.slick-arrow {
+    right: -67px;
+    bottom: -246px;
+}
+.parent {
+ 	width: 100%;   
+}
+
+}
+@media screen and ( max-width: 768px ) {
+
+footer .box{
+	text-align: center;
+}
+button.slick-prev.slick-arrow{
+	bottom: -268px;
+}
+.cowmilk-banner .heading h1 {
+    font-size: 40px;
+    line-height: 43px;
+}
+
+}
+@media screen and ( max-width: 576px ) {
+.create-recipes h2{
+	font-size: 32px;
+}
+.milk-for-children .text-block h2{
+	font-size: 32px;
+}
+.milk-for-children .text-block{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.milk-for-old-family h2{
+	font-size: 32px;
+}
+.milk-for-old-family .text-block{
+	text-align: center;
+}
+.milk-for-children .text-block p{
+	max-width: 100%;
+}
+.milk-for-old-family .box p{
+	max-width: 100%;
+}
+.milk-good-for-health h2 {
+    font-size: 32px;
+    margin: 0 0 25px 0;
+}
+.justify-content-start{
+	justify-content: center!important;
+}
+.cowmilk-header .logo-block h2{
+	margin: 0 0 25px 0!important;
+}
+.consumer-stories .box{
+	display: flex;
+	justify-content: center;
+}
+.parent__thumbnails-image-position-thumbnails-position img{
+	width: 50px;
+	height: 50px;
+}
+.parent{
+	width: 85%;
+	height: 400px;
+}
+.milk-for-old-family .image-block img{
+	width: 415px;
+}
+.milk-for-children .image-block img {
+    width: 415px;
+}
+.cowmilk-banner .position-png-cow {
+    right: 182px;
+    top: 262px;
+    left: 15px;
+}
+.cowmilk-banner .heading h1 {
+    font-size: 34px;
+    line-height: 43px;
+    text-align: center;
+}
+.cowmilk-header .logo-block h2{
+	text-align: center;
+}
+.cowmilk-header h4{
+	text-align: center;
+}
+.cowmilk-header nav ul{
+	margin: 15px 0 !important;
+}
+.cowmilk-banner .heading p{
+	text-align: center;
+	font-size: 14px;
+}
+.cowmilk-banner .heading a {
+    color: #3FAD3D;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 12px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    /* width: 31%; */
+}
+footer{
+	padding-bottom: 40px;
+}
+
+
+
+}
+@media screen and ( max-width: 450px ) {
+.cowmilk-banner .banner-image img {
+    width: 386px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.cowmilk-banner .position-png-cow img {
+    width: 117px;
+}
+.milk-for-old-family .image-block img {
+    width: 380px;
+}
+.milk-for-children .image-block img {
+    width: 386px;
+}
+.milk-for-children .image-block img {
+    width: 337px;
+}
+.cowmilk-header nav ul {
+    margin: 15px 0 !important;
+    gap: 9px!important;
+}
+.difine-protein .box {
+    text-align: center;
+    margin: 0 0 33px;
+}
+.create-recipes h2 {
+    font-size: 26px;
+}
+.milk-for-children .text-block h2 {
+    font-size: 26px;
+}
+.milk-for-old-family h2 {
+    font-size: 26px;
+}
+.milk-good-for-health h2 {
+    font-size: 26px;
+    margin: 0 0 25px 0;
+}
+.parent {
+    width: 78%;
+    height: 312px;
+}
+.parent__thumbnails-image{
+	width: 150px;
+}
+
+}
+@media screen and ( max-width: 475px ) {
+button.slick-prev.slick-arrow {
+	bottom: -268px;
+	top: 292px;
+}
+
+}
+@media screen and ( max-width: 420px ) {
+.cowmilk-banner .banner-image img{
+	width: 326px;
+}
+.cowmilk-banner .position-png-cow img {
+	width: 99px;
+}
+.cowmilk-banner .heading h1 {
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+.cowmilk-banner .heading a{
+	margin-bottom: 35px;
+}
+
+}
+@media screen and ( max-width: 399px ) {
+button.slick-prev.slick-arrow {
+    bottom: -268px;
+    top: 315px;
+}
+
+}
+@media screen and ( max-width: 392px ) {
+.milk-for-old-family .image-block img {
+    width: 294px;
+}
+.justify-content-end {
+    justify-content: center!important;
+}
+.milk-for-children .image-block img {
+    width: 294px;
+}
+.cowmilk-banner .heading h1 {
+    font-size: 26px;
+    line-height: 37px;
+    text-align: center;
+}
+.milk-for-old-family .box{
+	display: flex;
+	justify-content: center;
+}
+
+}
+@media screen and ( max-width: 333px ) {
+button.slick-prev.slick-arrow {
+    bottom: -268px;
+    top: 337px;
+}
+
+}
+@media screen and ( max-width: 350px ) {
+.cowmilk-banner .banner-image img {
+    width: 285px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
